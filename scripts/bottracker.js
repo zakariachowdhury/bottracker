@@ -5,7 +5,7 @@ $(function () {
     var CURRENCY = 'USD';
 
     var bots = [
-      { name: 'voteme', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.01, refunds: true }
+      { name: 'voteme', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.001, refunds: true }
     ];
     var bot_names = [];
     bots.forEach(function (bot) {
