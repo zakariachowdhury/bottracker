@@ -5,38 +5,7 @@ $(function () {
     var CURRENCY = 'USD';
 
     var bots = [
-      { name: 'booster', interval: 1.2, accepts_steem: true, comments: true, pre_vote_group_url: 'https://steemit.com/@frontrunner', min_bid: 0.1 },
-      { name: 'buildawhale', interval: 2.4, accepts_steem: false, comments: true, pre_vote_group_url: 'https://steemit.com/buildawhale/@buildawhale/announcing-the-buildawhale-prevote-club', min_bid: 1 },
-      { name: 'boomerang', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'minnowhelper', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1 },
-      { name: 'discordia', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'lovejuice', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'sneaky-ninja', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'voter', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'appreciator', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.05 },
-      { name: 'pushup', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'aksdwi', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.1, max_bid: 5 },
-      { name: 'msp-bidbot', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1 },
-      { name: 'kittybot', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.05 },
-      { name: 'upmyvote', interval: 2.4, accepts_steem: false, comments: false, min_bid: 1 },
-      { name: 'upme', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1, refunds: true },
-      { name: 'postpromoter', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1, refunds: true },
-      { name: 'mrswhale', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.1, min_bid_steem: 0.5 },
-      { name: 'hellowhale', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.05 },
-      { name: 'moneymatchgaming', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.05 },
-      { name: 'votebuster', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.01 },
-      { name: 'levitation', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.1 },
-      { name: 'upgoater', interval: 2.4, accepts_steem: true, comments: false, min_bid: 0.1, refunds: true },
-      { name: 'allaz', interval: 2.4, accepts_steem: false, comments: false, min_bid: 0.1, refunds: true },
-      { name: 'jerrybanfield', interval: 2.4, accepts_steem: true, comments: false, min_bid: 0.1, refunds: true },
-      { name: 'smartsteem', interval: 2.4, accepts_steem: true, comments: false, min_bid: 0.1, refunds: true },
-      { name: 'upyou', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1, refunds: true },
-      { name: 'yourwhale', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.1, refunds: true },
-      { name: 'mercurybot', interval: 2.4, accepts_steem: true, comments: false, min_bid: 0.1, refunds: true }
-      //{ name: 'upmewhale', interval: 2.4, accepts_steem: true, comments: false, min_bid: 0.1, refunds: true }
-      /*{ name: 'khoa', interval: 2.4 },
-      { name: 'polsza', interval: 2.4 },
-      { name: 'drotto', interval: 2.4 }*/
+      { name: 'voteme', interval: 2.4, accepts_steem: false, comments: true, min_bid: 0.001, refunds: true }
     ];
     var bot_names = [];
     bots.forEach(function (bot) {
